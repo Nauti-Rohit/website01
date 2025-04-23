@@ -1,6 +1,15 @@
-cd function App() {
+import "./layout.scss"
+import Navbar from "./components/Navbar/Navbar"
+import HomePage from "./routes/homePage/homePage"
+
+function App() {
   return (
-    <div>Hello World</div>
+    <div className="layout">
+
+      <Navbar />
+      <HomePage />
+
+    </div>
   )
 }
 
